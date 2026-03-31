@@ -16,10 +16,10 @@ const Home = ({ setActivePage }) => {
   ];
 
   const featured = [
-    { image: '/image/rice.jpeg', name: 'Bag of Rice', sub: 'White Pearl — 5kg to 50kg' },
-    { image: '/image/oil.jpeg', name: 'Sunflower Oil', sub: 'Pura Refined — 5L bottles' },
-    { image: '/image/spaghetti.jpeg', name: 'Foreign Spaghetti', sub: 'Simply (Tesco) — 500g packs' },
-    { image: '/image/quaker%20oat.webp', name: 'Quaker Oats', sub: 'Nutritious breakfast staple' },
+    { image: 'rice.jpeg', name: 'Bag of Rice', sub: 'White Pearl — 5kg to 50kg' },
+    { image: 'oil.jpeg', name: 'Sunflower Oil', sub: 'Pura Refined — 5L bottles' },
+    { image: 'spaghetti.jpeg', name: 'Foreign Spaghetti', sub: 'Simply (Tesco) — 500g packs' },
+    { image: 'quaker oat.webp', name: 'Quaker Oats', sub: 'Nutritious breakfast staple' },
   ];
 
   return (

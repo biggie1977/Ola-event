@@ -35,6 +35,22 @@ body {
   color: var(--text-main);
   line-height: 1.6;
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Mobile First Responsive */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 13px;
+  }
 }
 
 /* Scrollbar */
@@ -87,6 +103,18 @@ body {
   font-weight: 700;
   color: var(--deep);
   line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: clamp(1.5rem, 3vw, 2.2rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+  }
 }
 
 .section-subtitle {

@@ -2,49 +2,49 @@ import React, { useState } from 'react';
 
 const products = [
   {
-    id: 1, image: '/image/rice.jpeg', name: 'Bag of Rice', brand: 'White Pearl',
+    id: 1, image: 'rice.jpeg', name: 'Bag of Rice', brand: 'White Pearl',
     category: 'staples', featured: true,
     description: 'Premium quality long-grain white rice. Perfect for jollof, fried rice, or plain. Stacked in large quantities, ideal for events and bulk buyers.',
     variants: ['5kg', '10kg', '25kg', '50kg'],
     badge: 'Bestseller'
   },
   {
-    id: 2, image: '/image/oil.jpeg', name: 'Sunflower Vegetable Oil', brand: 'Pura Refined',
+    id: 2, image: 'oil.jpeg', name: 'Sunflower Vegetable Oil', brand: 'Pura Refined',
     category: 'oils', featured: true,
     description: 'High-quality refined sunflower oil, 5 litre bottles. High in polyunsaturates. Ideal for frying, shallow cooking, salad dressings and marinades.',
     variants: ['5L bottle'],
     badge: 'Popular'
   },
   {
-    id: 3, image: '/image/spaghetti.jpeg', name: 'Foreign Spaghetti', brand: 'Simply (Tesco)',
+    id: 3, image: 'spaghetti.jpeg', name: 'Foreign Spaghetti', brand: 'Simply (Tesco)',
     category: 'pasta', featured: true,
     description: 'Premium imported spaghetti from the UK. 500g packs, available per pack or full carton (20 packs). Smooth texture, cooks perfectly every time.',
     variants: ['500g pack', 'Carton (20 packs)'],
     badge: 'Imported'
   },
   {
-    id: 4, image: '/image/quaker%20oat.webp', name: 'Quaker Oats', brand: 'Quaker',
+    id: 4, image: 'quaker oat.webp', name: 'Quaker Oats', brand: 'Quaker',
     category: 'breakfast', featured: false,
     description: 'Wholesome rolled oats for a nutritious breakfast or catering. Great for porridge, smoothies, and healthy snacking at events.',
     variants: ['500g', '1kg'],
     badge: null
   },
   {
-    id: 5, image: '/image/salad.jpeg', name: 'Heinz Salad Cream', brand: 'Heinz',
+    id: 5, image: 'salad.jpeg', name: 'Heinz Salad Cream', brand: 'Heinz',
     category: 'condiments', featured: false,
     description: 'Original deliciously zingy salad cream established since 1869. The perfect condiment for salads, sandwiches and catering spreads.',
     variants: ['Standard bottle'],
     badge: 'UK Brand'
   },
   {
-    id: 6, image: '/image/mayonnise.jpeg', name: 'Heinz Mayonnaise', brand: 'Heinz',
+    id: 6, image: 'mayonnise.jpeg', name: 'Heinz Mayonnaise', brand: 'Heinz',
     category: 'condiments', featured: false,
     description: 'Creamy and smooth mayonnaise made with free range eggs. Rich, indulgent taste for salads, sandwiches and event catering.',
     variants: ['Standard bottle'],
     badge: 'UK Brand'
   },
   {
-    id: 7, image: '/image/wine.jpeg', name: 'Light Live Alcohol-Free Wine', brand: 'Light Live',
+    id: 7, image: 'wine.jpeg', name: 'Light Live Alcohol-Free Wine', brand: 'Light Live',
     category: 'beverages', featured: false,
     description: 'Premium alcohol-free wine. Perfect for events, weddings and celebrations where a sophisticated non-alcoholic option is needed.',
     variants: ['Cabernet Sauvignon (Red)', 'Chardonnay (White)', 'Rosé'],

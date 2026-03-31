@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     port: 3000,
     proxy: {
-      '/api': 'http://localhost:5000'
+      '/api': process.env.NODE_ENV === 'production' ? 'https://ola-event.vercel.app' : 'http://localhost:5000'
     }
   }
 });
